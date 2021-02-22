@@ -4,7 +4,7 @@ import Square from './square';
 
 class Board extends Component{
     renderSquare(i){
-        return <square/>;
+        return <square value={i}/>;
     }
 
  render() {

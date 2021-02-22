@@ -9,7 +9,7 @@ class Sqaure extends Component{
 
         return(
             <button className ="square">
-                
+                {this.props.value}
             </button>
 
         );

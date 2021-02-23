@@ -14,8 +14,7 @@ function App() {
         </a>
       </header>
       <div>
-        <Board/>
-        <Sqaure/>
+        <Game/>
       </div>
     </div>
   );

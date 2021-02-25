@@ -13,6 +13,7 @@ function App() {
         Tic Tac Toe
         </a>
       </header>
+      <br/>
       <div>
         <Game/>
       </div>

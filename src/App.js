@@ -9,9 +9,9 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <a>
-        Tic Tac Toe
-        </a>
+        <div>
+        <a>Tic Tac Toe</a>
+        </div>
       </header>
       <br/>
       <div>

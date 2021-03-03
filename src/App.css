@@ -3,6 +3,13 @@ body {
   margin: 20px;
 }
 
+.App-header {
+  background-color: whitesmoke;
+  color: black;
+  font: 25px "Veranda";
+  text-align: center;
+}
+
 ol,
 ul {
   padding-left: 30px;
@@ -19,18 +26,24 @@ ul {
 }
 
 .square {
-  background: #fff;
-  border: 1px solid #999;
+  background-color: rgba(42, 30, 88, 0.699);
+  border: 2px solid whitesmoke;
   float: left;
   font-size: 24px;
   font-weight: bold;
   line-height: 34px;
-  height: 34px;
+  height: 60px;
   margin-right: -1px;
   margin-top: -1px;
-  padding: 0;
+  padding: 5px;
   text-align: center;
-  width: 34px;
+  width: 60px;
+}
+
+.whole-board {
+  background-color: whitesmoke;
+  padding: 10px;
+  border: 3px solid black;
 }
 
 .square:focus {

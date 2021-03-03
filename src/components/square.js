@@ -11,7 +11,6 @@ function Sqaure(props) {
             {props.value}
             </button>
         );
-   
 };
 
 

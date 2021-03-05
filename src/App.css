@@ -64,10 +64,10 @@ ul {
   background: #ddd;
 }
 
-.game {
+/* .game {
   display: flex;
   flex-direction: row;
-}
+} */
 
 .game-info {
   margin-left: 20px;
@@ -75,4 +75,6 @@ ul {
 
 .gameWrapper {
   margin: auto auto;
+  width: 100%;
+  justify-content: center;
 }

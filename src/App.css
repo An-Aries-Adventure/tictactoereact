@@ -1,8 +1,19 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
 body {
   font: "Century Gothic", Futura, sans-serif;
-  font-size: 62.5%;
   margin: 20px;
-  box-sizing: border-box;
   display: flex;
   color: whitesmoke;
 }
@@ -69,12 +80,22 @@ ul {
   flex-direction: row;
 } */
 
+.game-board {
+  margin-left: 2rem;
+  margin-right: 2rem;
+  padding: 5px;
+}
+
 .game-info {
   margin-left: 20px;
 }
 
 .gameWrapper {
-  margin: auto auto;
+  margin: 0 auto;
   width: 100%;
   justify-content: center;
+}
+
+#root {
+  margin: 0 auto;
 }

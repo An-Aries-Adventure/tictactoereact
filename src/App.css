@@ -1,18 +1,26 @@
 body {
-  font: 14px "Century Gothic", Futura, sans-serif;
+  font: "Century Gothic", Futura, sans-serif;
+  font-size: 62.5%;
   margin: 20px;
+  box-sizing: border-box;
+  display: flex;
 }
 
-.App-header {
+.backgroundImage-header {
   background-color: whitesmoke;
   color: black;
-  font: 25px "Veranda";
+  font: 2rem "Veranda";
   text-align: center;
 }
 
 ol,
 ul {
   padding-left: 30px;
+}
+
+.backgroundImage {
+  background-image: url("./assets/tictactoe.jpg");
+  border: black 1px solid;
 }
 
 .board-row:after {
@@ -29,7 +37,7 @@ ul {
   background-color: rgba(42, 30, 88, 0.699);
   border: 2px solid whitesmoke;
   float: left;
-  font-size: 24px;
+  font-size: 3rem;
   font-weight: bold;
   line-height: 34px;
   height: 60px;
@@ -61,4 +69,8 @@ ul {
 
 .game-info {
   margin-left: 20px;
+}
+
+.gameWrapper {
+  margin: auto auto;
 }

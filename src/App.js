@@ -7,14 +7,15 @@ import Sqaure from './components/square';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
+    <div className='backgroundImage'>
+      <header className="backgroundImage-header">
         <div>
         <a>Tic Tac Toe</a>
         </div>
       </header>
       <br/>
-      <div>
+      <br/>
+      <div className ="gameWrapper">
         <Game/>
       </div>
     </div>

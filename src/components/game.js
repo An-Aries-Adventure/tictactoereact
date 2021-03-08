@@ -49,7 +49,9 @@ class Game extends Component{
          return(
             <div className ="game">
                 <div className ="game-info">
-                    <div>{status}</div>
+                    <div className ="next-player">
+                        <p id="player-status">{status}</p>
+                    </div>
                     <ol>{/*todo*/}</ol>
                 </div>
                 <div className='game-board'>

@@ -108,6 +108,20 @@ ul {
   margin: 0 auto;
 }
 
+.moves {
+  justify-content: center;
+}
+
+.moves ul li {
+  list-style-type: none;
+  margin: 0 auto;
+}
+
+.moves ul li button {
+  background: none;
+  color: whitesmoke;
+}
+
 #player-status {
   font-size: 2rem;
 }

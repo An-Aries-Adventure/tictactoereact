@@ -49,8 +49,8 @@ class Game extends Component{
 
         const moves = history.map((step, move) => {
             const desc = move ? 
-            "Go to Move #" + move:
-            "Go to game state";
+            "Go to Move #" + move :
+            "Select Square to Start";
         return (
             <li key={move}>
                 <button onClick={() =>
@@ -85,7 +85,7 @@ class Game extends Component{
                     onClick={(i) => this.handleClick(i)}
                     />
                 </div>
-                <div>
+                <div className ="moves">
                      <ul>{moves}</ul>
                 </div>
             </div>

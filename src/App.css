@@ -122,6 +122,10 @@ ul {
   color: whitesmoke;
 }
 
+.moves ul li button:hover {
+  background: rgb(24, 42, 48);
+}
+
 #player-status {
   font-size: 2rem;
 }
